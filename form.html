@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practise make a form</title>
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="nav.html">Home</a></li>
+          <li><a href="form.html">From</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="video.html">Video</a></li>
+        </ul>
+      </nav>
+      <h3>Practise form</h3>
+    </header>
+    <main>
+      <section>
+        <h2>Please fill into the form</h2>
+        <form class="form">
+          <label for="name"
+            >Your Name:
+            <input type="text" placeholder="Your Name" />
+          </label>
+          <label for="email"
+            >Your Email:
+            <input type="email" placeholder="Your email" />
+          </label>
+          <label for="phone"
+            >Your Phone:
+            <input type="number" name="number" placeholder="Your numbner" />
+          </label>
+
+          <fieldset>
+            <legend>Select Your Gender</legend>
+            <label for="male">
+              <input type="radio" name="gender" id="male" />
+              Male
+            </label>
+            <label for="female">
+              <input type="radio" name="gender" id="female" />
+              Female
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Select Your Color</legend>
+            <label for="red">
+              <input type="checkbox" name="color" id="red" />
+                 Red
+            </label>
+            <label for="Blue">
+              <input type="checkbox" name="color" id="blue" />
+              Blue
+            </label>
+            <label for="green">
+              <input type="checkbox" name="color" id="green" />
+              Green
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Instrution</legend>
+            <textarea name="Instrution" id="" cols="30" rows="3"></textarea>
+          </fieldset>
+
+          <input type="reset" value="reset" />
+          <input type="submit" value="submit" />
+        </form>
+      </section>
+    </main>
+    <footer>&copy; All Right Reserved</footer>
+  </body>
+</html>
